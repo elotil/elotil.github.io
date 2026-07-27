@@ -1,3 +1,3 @@
-This is a work in progress!
+This is a work in progress! Thank you for your interest and support.
 
-Please visit us at elotil.github.io/portfolio
+Please visit [elotil.github.io/portfolio](http://elotil.github.io/portfolio)

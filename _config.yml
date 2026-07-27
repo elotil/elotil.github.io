@@ -22,7 +22,7 @@ title: Elliot McMillan
 email: elliotmcmillan9@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developer portfolio of Elliot McMillan (elotil)
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://elotil.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  elotil
