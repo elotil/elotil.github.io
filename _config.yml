@@ -28,7 +28,7 @@ url: "https://elotil.github.io" # the base hostname & protocol for your site, e.
 github_username:  elotil
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
