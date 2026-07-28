@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-  </head>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% include head-custom.html %}
 
-  <body>
+  {% seo %}
+</head>
 
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+<body>
 
-        <section id="downloads">
-          <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
-        </section>
-      </div>
-    </header>
-
+  <header>
     <div class="container">
-
-      <h3>{{ page.title }}</h3>
-      <section id="main_content">
-        {{ content }}
-      </section>
+      <a id="a-title" href="{{ '/' | relative_url }}">
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      </a>
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      {% include navigation.html %}
     </div>
-  </body>
+  </header>
+
+  <div class="container">
+
+    <h3>{{ page.title }}</h3>
+    <section id="main_content">
+      {{ content }}
+    </section>
+  </div>
+</body>
+<footer>
+  <div class="container">
+    <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
+  </div>
+</footer>
+
 </html>

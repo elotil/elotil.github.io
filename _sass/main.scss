@@ -1,0 +1,47 @@
+@import "default_colors";
+
+.current {
+    color: $dove-grey;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px dashed $gulf-stream;
+    padding: 20px 0;
+}
+
+header {
+    border-bottom: 1px dashed $gulf-stream;
+}
+
+header h1 {
+    color: $gulf-stream;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $gulf-stream;
+}
+
+navlink {
+    margin: 0 20px 0 0;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: none;
+    color: $silver-chalice;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+header h2 {
+    font-size: 14px;
+}
+
+hr {
+    border-bottom: 1px dashed $gulf-stream;
+    color: $gulf-stream;
+}
