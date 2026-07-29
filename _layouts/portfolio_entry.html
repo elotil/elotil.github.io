@@ -4,4 +4,9 @@ layout: default
 
 {{ page.date | date_to_string }}
 
-{{content}}
+<div class="pagecontent">
+    <span>{% if page.thumbnail %}<img src="{{ page.thumbnail }}">{% endif %}</span>
+    <span>{{ content }}</span>
+
+    {% if page.external_link %}<a href="{{ page.external_link }}">{% if page.link_text %}{{ page.link_text }}{% else %}External Link{% endif %}</a>{% endif %}
+</div>
