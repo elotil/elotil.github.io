@@ -8,7 +8,7 @@ Hi, I’m Elliot McMillan. I’m a software developer with a background in compu
 
 I have an M.S. in Computer Science from Clemson University and a B.S. in Computer Science from Appalachian State University. I also studied Simulation & Game Development at Wake Tech.
 
-I like making things, figuring out how things work, and solving interesting problems. My [portfolio]({% link /portfolio %}) showcases some of my work, if you want to see what kinds of things I like to make.
+I like making things, figuring out how things work, and solving interesting problems. My [portfolio](/portfolio) showcases some of my work, if you want to see what kinds of things I like to make.
 
 Currently, I'm working in South Carolina on database management software for the aerospace industry. I am actively looking for remote software engineering roles where I can use my skills to contribute to work that matters to me, particularly in education, healthcare, nonprofits, or other public-interest organizations. I'm also looking for a workplace that is welcoming and supportive of trans employees.
 
