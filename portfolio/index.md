@@ -4,7 +4,7 @@ title: Portfolio
 permalink: portfolio
 ---
 
-Welcome to my development portfolio! I'm still adding old projects and it will be awhile before I consider this up-to-date, but please feel free to take a look around anyway.
+Most of my recent professional work has been on proprietary software, so it isn't represented in this portfolio. The projects below include academic work as well as newer projects I'm building independently.
 
 <ul>
 {% for entry in site.categories.portfolio %}
