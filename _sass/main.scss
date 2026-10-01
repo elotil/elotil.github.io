@@ -1,7 +1,11 @@
 @import "default_colors";
 
+body {
+    font-family: "Noto Mono", monospace;
+}
+
 .current {
-    color: $dove-grey;
+    border-bottom: 1px dashed $gulf-stream;
 }
 
 .pagecontent {
@@ -53,8 +57,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     text-shadow: none;
-    color: $silver-chalice;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: $silver-chalice !important;
+    font-family: "Noto Mono", monospace;
 }
 
 header h2 {
