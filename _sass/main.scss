@@ -5,7 +5,7 @@ body {
 }
 
 .current {
-    border-bottom: 1px dashed $gulf-stream;
+    border: 1px solid $gulf-stream;
 }
 
 .pagecontent {
@@ -68,4 +68,20 @@ header h2 {
 hr {
     border-bottom: 1px dashed $gulf-stream;
     color: $gulf-stream;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+.btn-download .icon {
+  opacity: 0.6;
+  background: url("/assets/images/download.png") 0 0 no-repeat;
+}
+
+.btn-email .icon {
+  opacity: 0.6;
+  background: url("/assets/images/email.png") 0 0 no-repeat;
 }
