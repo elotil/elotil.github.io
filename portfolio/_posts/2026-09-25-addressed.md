@@ -9,4 +9,6 @@ A little web-based address book for managing shared contacts.
 
 I built this as a full-stack project using Django, SQLite, and JavaScript. You can browse, add, edit, and delete contacts, with support for multiple email addresses per contact.
 
+<div class="screenshot"><img src="/assets/images/addressed.png"></div>
+
 Live demo coming soon.
